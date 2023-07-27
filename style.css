@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.food_menu .food_menu_list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.slide_text h1{
+    font-family: 'Lato', sans-serif;
+}
+.carousel-item .slide_img{
+    height: 100%;
+}
+.carousel-item .slide_img img{
+    height: 100%;
+    width: 100%;
+    -webkit-filter: #121212; /* Safari 6.0 - 9.0 */
+    filter: #121212;
+}
+.food_menu{
+    box-shadow: 0 2px 40px rgb(0, 0, 0, 0.2);;
+}
+.date span{
+    text-align: center;
+}
+.date span h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #121212;
+}
+.date span p{
+    font-size: 16px;
+    color: rgba(18, 18, 18, 0.60);
+}
+.shopping_card_list .card{
+    border: 0.1px solid rgb(0, 0, 0, 0.2);
+}
+.card .card-body h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #121212; 
+}
+.card .card-body p{
+    color: rgba(18, 18, 18, 0.60);
+    font-size: 16px;
+}
+.card .card-body .card_reating_star i{
+    color:#F85559;
+    font-size: 24px;
+}
+.card .card-body a{
+    color: #F85559;
+    font-size: 18px;
+    font-weight: 600;
+}
+#banner .container .container_img img{
+    height: 100%;
+    width: 100%;
+    -webkit-filter: brightness(0.5); /* Safari 6.0 - 9.0 */
+    filter: brightness(0.5);
+}
+#banner .container .container_text .container_customer .info ul li i{
+    color: #F85559;
+    background: #fff;
+}
+footer .container .link_list ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+footer .container .logo_link ul li i{
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+
+@media screen and (min-width: 768px) { 
+    .food_menu{
+        display: none;
+    }
+}
+@media screen and (min-width: 640px) { 
+    .food_menu{
+        display: none;
+    }
+}
